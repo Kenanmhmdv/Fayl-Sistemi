@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");
+
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+body {
+  font-family: Josefin Sans;
+}
+
+header {
+  background-color: black;
+  padding: 16px 24px;
+}
+
+.menu-logo {
+  display: flex;
+  flex-direction: row;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  width: 50%;
+}
+.img img {
+  width: 50px;
+  height: 50px;
+}
+.logo-text h2 {
+  color: white;
+  font-size: 18px;
+}
+
+.menu {
+  width: 50%;
+  /* align-items: center; */
+  /* display: flex;
+  flex-direction: row; */
+  /* justify-content: space-evenly; */
+  /* background-color: red; */
+  padding-top: 5px;
+}
+
+.nav-ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  /* background-color: yellow; */
+  list-style: none;
+  align-items: center;
+  height: 100%;
+}
+
+.nav-ul li a {
+  color: white;
+  text-decoration: none;
+}
+.nav-ul li:nth-last-child(1) {
+  color: black;
+  background-color: orange;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+.nav-ul li:nth-last-child(1):hover {
+  background-color: darkorange;
+}
+
+footer {
+  width: 100%;
+  height: 500px;
+  background-color: black;
+}
+.img-2 {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.img-2 img {
+  height: 60px;
+  width: 60px;
+}
+.img-2 {
+  padding: 60px;
+}
+
+.img-2 h2 {
+  color: aliceblue;
+}
+.logo-1 p {
+  color: aliceblue;
+  text-align: center;
+  text-decoration: none;
+}
+.logo-1 a {
+  display: block;
+  color: aliceblue;
+  text-align: center;
+  text-decoration: none;
+}
+.paragraph {
+  margin: 90px;
+}
+
+svg {
+  color: white;
+}
+.logo-1 p {
+  margin: 20px;
+}
+.svg-1 {
+  text-align: center;
+  margin: 90px;
+}
+.svg-1 p {
+  color: white;
+}
